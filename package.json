@@ -8,12 +8,15 @@
     "nodemon": "^2.0.19"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node index.js"
   },
   "name": "personal-web-server",
   "version": "1.0.0",
   "main": "server.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "14.x"
+  }
 }
